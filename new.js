@@ -28,3 +28,10 @@ const student = {
         console.log(`Hello, my name is ${this.name}`);
     }
 }
+
+console.log(student.name); // Output: John
+console.log(student.age); // Output: 20
+console.log(student.isEnrolled); // Output: true
+console.log(student.courses); // Output: ["Math", "Science", "History"]
+console.log(student.address.city); // Output: Anytown
+student.greet(); // Output: Hello, my name is John
