@@ -7,7 +7,7 @@ buttons.forEach(button => {
     console.log(e);
     console.log(e.target);
     if(e.target.id === 'grey'){
-        body.style.backgroundColor = 'grey';
+        body.style.backgroundColor = e.target.id;
     }
   });
 });
