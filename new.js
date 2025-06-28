@@ -25,7 +25,7 @@ const student = {
         zipCode: "12345"
     },
     greet: function() {
-        console.log(`Hello, my name is ${this.name}`);
+             console.log(`Hello, my name is ${this.name}`);
     }
 }
 

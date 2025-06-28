@@ -6,4 +6,4 @@ const books = [
 ];
 
 const filteredBooks = books.filter(book => book.year > 1950);
-console.log(filteredBooks);
+       console.log(filteredBooks);
