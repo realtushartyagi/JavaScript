@@ -6,9 +6,9 @@ buttons.forEach(button => {
   button.addEventListener('click', (e) => {
     console.log(e);
     console.log(e.target);
-
-    const color = button.getAttribute('data-color');
-    body.style.backgroundColor = color;
+    if(e.target.id === 'grey'){
+        body.style.backgroundColor = 'grey';
+    }
   });
 });
 
