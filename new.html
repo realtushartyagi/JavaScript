@@ -6,6 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+    <script>
+
+        const startButton = document.getElementById('start');
+        const stopButton = document.getElementById('stop');
+
+        startButton.addEventListener('click', () => {
+            console.log('Started');
+        });
+
+        stopButton.addEventListener('click', () => {
+            console.log('Stopped');
+        });
+    </script>
+
 </body>
 </html>
